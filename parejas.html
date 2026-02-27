@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas para Niños</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>🎴 PAREJAS 🎴</h1>
+    <p class="subtitle">¡Diviértete encontrando las parejas correctas, clickeando en las tarjetas cuando encuentres el
+      item!</p>
+    <button id="btn-iniciar" class="btn-iniciar">Iniciar juego</button>
+  </header>
+
+  <div class="slider-row">
+    <div class="puntos-container">
+      <div class="punto" id="punto1">0</div>
+    </div>
+    <div class="slider-container">
+      <img id="slider-img" src="dibujos/gato.svg" alt="Slider" width="180" height="180">
+    </div>
+    <div class="tiempo-container">
+      <div class="tiempo" id="tiempo1">Tiempo: 0s</div>
+    </div>
+  </div>
+
+  <section class="cards-section">
+    <div class="cards-grid">
+      <!-- TARJETA 1: ANIMALES -->
+      <div class="card-wrapper">
+        <div class="card animals flex5">
+          <div class="row top">
+            <img src="dibujos/gato.svg" alt="Gato" width="100" height="100">
+            <img src="dibujos/perro.svg" alt="Perro" width="100" height="100">
+          </div>
+          <div class="row">
+            <img src="dibujos/pajaro.svg" alt="Pájaro" width="100" height="100">
+            <img src="dibujos/conejo.svg" alt="Conejo" width="100" height="100">
+            <img src="dibujos/pez.svg" alt="Pez" width="100" height="100">
+          </div>
+        </div>
+        <div class="card-label">🐾 Animales</div>
+      </div>
+
+      <!-- TARJETA 2: FRUTAS -->
+      <div class="card-wrapper">
+        <div class="card fruits flex5">
+          <div class="row top">
+            <img src="dibujos/manzana.svg" alt="Manzana" width="100" height="100">
+            <img src="dibujos/platano.svg" alt="Plátano" width="100" height="100">
+            <img src="dibujos/sandia.svg" alt="Sandia" width="100" height="100">
+          </div>
+          <div class="row">
+            <img src="dibujos/fresa.svg" alt="Fresa" width="100" height="100">
+            <img src="dibujos/naranja.svg" alt="Naranja" width="100" height="100">
+          </div>
+        </div>
+        <div class="card-label">🍎 Frutas</div>
+      </div>
+
+      <!-- TARJETA 3: VEHÍCULOS -->
+      <div class="card-wrapper">
+        <div class="card vehicles flex5">
+          <div class="row top">
+            <img src="dibujos/coche.svg" alt="Coche" width="100" height="100">
+            <img src="dibujos/avion.svg" alt="Avión" width="100" height="100">
+          </div>
+          <div class="row">
+            <img src="dibujos/barco.svg" alt="Barco" width="100" height="100">
+            <img src="dibujos/bici.svg" alt="Bici" width="100" height="100">
+            <img src="dibujos/tren.svg" alt="Tren" width="100" height="100">
+
+          </div>
+        </div>
+        <div class="card-label">🚗 Vehículos</div>
+      </div>
+
+      <!-- TARJETA 4: NATURALEZA -->
+      <div class="card-wrapper">
+        <div class="card nature flex5">
+          <div class="row top">
+            <img src="dibujos/sol.svg" alt="Sol" width="100" height="100">
+            <img src="dibujos/arbol.svg" alt="Árbol" width="100" height="100">
+          </div>
+          <div class="row">
+            <img src="dibujos/nube.svg" alt="Nube" width="100" height="100">
+            <img src="dibujos/flor.svg" alt="Flor" width="100" height="100">
+            <img src="dibujos/arcoiris.svg" alt="Arcoíris" width="100" height="100">
+          </div>
+        </div>
+        <div class="card-label">🌳 Naturaleza</div>
+      </div>
+
+      <!-- TARJETA 5: COMIDA -->
+      <div class="card-wrapper">
+        <div class="card food flex5">
+          <div class="row top">
+            <img src="dibujos/pizza.svg" alt="Pizza" width="100" height="100">
+            <img src="dibujos/helado.svg" alt="Helado" width="100" height="100">
+          </div>
+          <div class="row">
+            <img src="dibujos/pastel.svg" alt="Pastel" width="100" height="100">
+            <img src="dibujos/galleta.svg" alt="Galleta" width="100" height="100">
+            <img src="dibujos/hamburguesa.svg" alt="Hamburguesa" width="100" height="100">
+          </div>
+        </div>
+        <div class="card-label">🍕 Comida</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

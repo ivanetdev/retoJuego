@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <ellipse cx="50" cy="60" rx="20" ry="22" fill="#70c4e4"/>
+  <circle cx="50" cy="38" r="16" fill="#70c4e4"/>
+  <ellipse cx="30" cy="58" rx="14" ry="9" fill="#5ab0d0" transform="rotate(-20,30,58)"/>
+  <polygon points="38,40 28,37 38,43" fill="#ffd166"/>
+  <circle cx="55" cy="36" r="5" fill="white"/>
+  <circle cx="56" cy="36" r="3" fill="#222"/>
+  <circle cx="56.5" cy="35" r="1" fill="white"/>
+  <line x1="44" y1="80" x2="40" y2="90" stroke="#ffd166" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="80" x2="60" y2="90" stroke="#ffd166" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="40" y1="90" x2="35" y2="95" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="90" x2="42" y2="95" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="90" x2="55" y2="95" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="90" x2="65" y2="95" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+</svg>
