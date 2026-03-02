@@ -198,6 +198,15 @@ h1 {
     }
     .slider-row {
         gap: 12px;
+        flex-wrap: wrap;
+    }
+    .puntos-container, .tiempo-container {
+        min-width: 60px;
+        padding: 8px 6px;
+        font-size: 1em;
+        box-sizing: border-box;
+        max-width: 45vw;
+        word-break: break-word;
     }
     .cards-grid {
         grid-template-columns: repeat(3, 1fr);
