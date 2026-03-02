@@ -17,7 +17,8 @@ Git
 - docker compose up (La primera vez tardará unos minutos en descargar las imágenes. Cuando veas Server startup in [X] milliseconds ya está listo).
 
 3. Abre el navegador:
-http://localhost:8081
+- http://localhost:8081
+
 
 🛑 Para detener la aplicación
 docker compose down
