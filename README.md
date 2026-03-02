@@ -21,15 +21,17 @@ Puedes probar el juego aquí:
 
 ## 🚀 Instalación y uso
 
-1️⃣ Clonar el repositorio
+1️⃣ Clonar el repositorio:
+
 bash
 git clone https://github.com/ivanetdev/retoJuego.git
 
-2️⃣ Entrar en la carpeta
+2️⃣ Entrar en la carpeta:
+
 bash
 cd retoJuego
 
-3️⃣ Ejecutar el proyecto
+3️⃣ Ejecutar el proyecto:
 
 Abre el archivo index.html en tu navegador
 o accede directamente desde GitHub Pages.
