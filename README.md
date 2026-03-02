@@ -10,6 +10,7 @@ Git
 1. Clona el repositorio:
    
 git clone https://github.com/ivanetdev/retoJuego.git
+
 cd retoJuego
 
 2. Arranca el proyecto:
